@@ -1,0 +1,9 @@
+C:\Users\AddamCauê\Desktop\Tudo_Importante\Faculdade\Computação Gráfica\Casa\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\AddamCauê\Desktop\Tudo_Importante\Faculdade\Computação Gráfica\Casa\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\AddamCauê\Desktop\Tudo_Importante\Faculdade\Computação Gráfica\Casa\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\AddamCauê\Desktop\Tudo_Importante\Faculdade\Computação Gráfica\Casa\WindowsFormsApplication1\obj\Debug\Casa.csprojResolveAssemblyReference.cache
+C:\Users\AddamCauê\Desktop\Tudo_Importante\Faculdade\Computação Gráfica\Casa\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form_casa.resources
+C:\Users\AddamCauê\Desktop\Tudo_Importante\Faculdade\Computação Gráfica\Casa\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\AddamCauê\Desktop\Tudo_Importante\Faculdade\Computação Gráfica\Casa\WindowsFormsApplication1\obj\Debug\Casa.csproj.GenerateResource.Cache
+C:\Users\AddamCauê\Desktop\Tudo_Importante\Faculdade\Computação Gráfica\Casa\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\AddamCauê\Desktop\Tudo_Importante\Faculdade\Computação Gráfica\Casa\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
