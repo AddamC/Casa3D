@@ -86,13 +86,13 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Recursos\Chao.jpg" />
-    <Content Include="Recursos\chaoFotografia.jpg" />
-    <Content Include="Recursos\chaoQuintal.jpg" />
-    <Content Include="Recursos\fotografia.jpg" />
-    <Content Include="Recursos\Janela2.png" />
-    <Content Include="Recursos\PortaFotografia.png" />
-    <Content Include="Recursos\Portao.png" />
+    <Content Include="Resources\Chao.jpg" />
+    <Content Include="Resources\chaoFotografia.jpg" />
+    <Content Include="Resources\chaoQuintal.jpg" />
+    <Content Include="Resources\fotografia.jpg" />
+    <Content Include="Resources\Janela2.png" />
+    <Content Include="Resources\PortaFotografia.png" />
+    <Content Include="Resources\Portao.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

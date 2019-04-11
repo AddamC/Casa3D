@@ -558,12 +558,12 @@ namespace WindowsFormsApplication1
             GL.ClearColor(Color.GhostWhite);         // definindo a cor de limpeza do fundo da tela
             GL.Enable(EnableCap.Light0);
 
-            texPorta = LoadTexture("../../Recursos/PortaFotografia.png");
-            texParede = LoadTexture("../../Recursos/fotografia.jpg");
-            texPortao = LoadTexture("../../Recursos/Portao.png");
-            texJanela = LoadTexture("../../Recursos/Janela2.png");
-            texChao = LoadTexture("../../Recursos/Chao.jpg");
-            texQuintal = LoadTexture("../../Recursos/chaoQuintal.jpg");
+            texPorta = LoadTexture("../../Resources/PortaFotografia.png");
+            texParede = LoadTexture("../../Resources/fotografia.jpg");
+            texPortao = LoadTexture("../../Resources/Portao.png");
+            texJanela = LoadTexture("../../Resources/Janela2.png");
+            texChao = LoadTexture("../../Resources/Chao.jpg");
+            texQuintal = LoadTexture("../../Resources/chaoQuintal.jpg");
 
             SetupViewport();                      //configura a janela de pintura
         }

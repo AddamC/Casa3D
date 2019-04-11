@@ -16,7 +16,7 @@ namespace WindowsFormsApplication1
     public class Paredes
     {
         public void fazerParede(float hi, float hf, float xi,
-                                 float comprX, float yi, float yf)
+                                float comprX, float yi, float yf)
         {
             GL.Begin(PrimitiveType.Quads);
             GL.Vertex3(xi, yi, hi);
@@ -26,8 +26,8 @@ namespace WindowsFormsApplication1
             GL.End();
         }
         public void paredeTextura(float hi, float hf, float xi,
-                                         float comprX, float yi, float yf,
-                                        int textura)
+                                  float comprX, float yi, float yf,
+                                  int textura)
         {
             GL.Enable(EnableCap.Texture2D);
             GL.BindTexture(TextureTarget.Texture2D, textura);
@@ -82,12 +82,8 @@ namespace WindowsFormsApplication1
             GL.Disable(EnableCap.Texture2D);
         }
 
-        //metodo polimorfico
-        public void fazerParede(float hi, float hf, float xi,
-                                 float comprX, float posY) //Apenas criar a parede indo no X
+        public void fazerParede(float hi, float hf, float xi, float comprX, float posY) //Apenas criar a parede indo no X
         {
-            //GL.Color3(Color.Gray);
-
             GL.Begin(PrimitiveType.Quads);
             GL.Vertex3(xi, posY, hi);
             GL.Vertex3(xi, posY, hf);
@@ -95,11 +91,9 @@ namespace WindowsFormsApplication1
             GL.Vertex3(xi + comprX, posY, hi);
             GL.End();
         }
-        // metodo polimorfico
-        public void paredeTextura(float hi, float hf, float xi,
-                                 float comprX, float posY, int textura) //Apenas criar a parede indo no X
+
+        public void paredeTextura(float hi, float hf, float xi, float comprX, float posY, int textura) //Apenas criar a parede indo no X
         {
-            //GL.Color3(Color.Gray);
             GL.Enable(EnableCap.Texture2D);
             GL.BindTexture(TextureTarget.Texture2D, textura);
             GL.Enable(EnableCap.Blend);
@@ -120,53 +114,24 @@ namespace WindowsFormsApplication1
                                  float buracoXi, float buracoXf,
                                  float buracoYi, float buracoYf)
         {
-
-
-            //GL.Begin(PrimitiveType.Quads);
-
-            //GL.Vertex3(xi, yi, hi);
-            //GL.Vertex3(xi, yi, hf);
-            //GL.Vertex3(xi + comprX, yi + yf, hf);
-            //GL.Vertex3(xi + comprX, yi + yf, hi);
-
+            
             fazerParede(hi, buracoHi, xi, comprX, yi, yf);
             fazerParede(buracoHf, hf, xi, comprX, yi, yf);
-
-            //GL.Vertex3(xi, yi, hi);
-            //GL.Vertex3(xi, yi, buracoHi);
-            //GL.Vertex3(xi + comprX, yi + yf, buracoHi);
-            //GL.Vertex3(xi + comprX, yi + yf, hi);
-
-            //GL.Vertex3(xi, yi, buracoHf);
-            //GL.Vertex3(xi, yi, hf);
-            //GL.Vertex3(xi + comprX, yi + yf, hf);
-            //GL.Vertex3(xi + comprX, yi + yf, buracoHf);
-
-            if (xi != comprX) //cria na diagonal
+            
+            //cria na diagonal
+            if (xi != comprX)
             {
-                buracoYi = yf * buracoXi / comprX; //eq. para achar valor adequado do y do buraco
+                //eq. para achar valor adequado do y do buraco
+                buracoYi = yf * buracoXi / comprX; 
                 buracoYf = yf * buracoXf / comprX;
 
             }
 
             fazerParede(buracoHi, buracoHf, xi, buracoXi, yi, buracoYi);
-            //fazerParede(buracoHi, buracoHf, buracoXf, buracoXi, buracoYf, yf-buracoYf);
-
-            //GL.Vertex3(xi, yi, buracoHi);
-            //GL.Vertex3(xi, yi, buracoHf);
-            //GL.Vertex3(xi + buracoXi, yi + buracoYi, buracoHf);
-            //GL.Vertex3(xi + buracoXi, yi + buracoYi, buracoHi);
-
-            //GL.Vertex3(buracoXf, buracoYf, buracoHi);
-            //GL.Vertex3(buracoXf, buracoYf, buracoHf);
-            //GL.Vertex3(comprX, yf, buracoHf);
-            //GL.Vertex3(comprX, yf, buracoHi);
-
-            //GL.End();
         }
 
         public void fazerEscada(int deg, float altura, float hf, float xi,
-                              float comprX, float yi, float yf)  //começando de cima para baixo
+                                float comprX, float yi, float yf)  //começando de cima para baixo
         {
             float alturaDeg;
             int cont;
