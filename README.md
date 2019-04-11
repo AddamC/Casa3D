@@ -1,8 +1,10 @@
 # Casa3D
 
-Trabalho de Computação Gráfica do 2º BCC(Ciência da computação) para representação da casa em um ambiente digital 3D.
+3D version of my house.
 
-Foi usado o OpenTK com a linguagem C# para a realização deste trabalho.
+Developed when I was in my 2nd year at Computer Science Degree. This was a Computer Graphics project, in which every student had to make a 3D version of their home.
 
-Desenvolvido em 2016 por:
-- Addam Cauê Peres Rafacho
+Developed in C# using OpenTK library.
+
+Final result:
+![casa 3D](https://raw.githubusercontent.com/AddamC/Casa3D/master/Casa3D.jpg)
